@@ -7,7 +7,7 @@ describe('cpf lib', () => {
     it('cpf is valid', () => {
       expect(cpfValidator.cpfValidator('41010270800')).to.equal(true);
     });
-    it('cpf is valid', () =>{
+    it('cpf is invalid', () =>{
       expect(cpfValidator.cpfValidator('41010270805')).to.equal(false);
     });
   });
