@@ -12,6 +12,15 @@ describe('cpf lib', () => {
     it('it should be true', () =>{
       expect(cpfValidator.cpfValidator('13519891034')).to.equal(true);
     });
+    it('it should be true', () =>{
+      expect(cpfValidator.cpfValidator('128.974.300-28')).to.equal(true);
+    });
+    it('it should be true', () =>{
+      expect(cpfValidator.cpfValidator('922 167 190 99')).to.equal(true);
+    });
+    it('it should be true', () =>{
+      expect(cpfValidator.cpfValidator('135.198.910-34')).to.equal(true);
+    });  
     it('it should be false', () =>{
       expect(cpfValidator.cpfValidator('64695823035')).to.equal(false);
     });
@@ -28,7 +37,7 @@ describe('cpf lib', () => {
       expect(cpfValidator.cpfValidator('abcdefjklmn')).to.equal(false);
     });
     it('it should be false', () =>{
-      expect(cpfValidator.cpfValidator('53559 200040')).to.equal(false);
+      expect(cpfValidator.cpfValidator('53559 400040')).to.equal(false);
     });
     it('it should be false', () =>{
       expect(cpfValidator.cpfValidator('gabriele')).to.equal(false);
@@ -38,6 +47,6 @@ describe('cpf lib', () => {
     });
     it('it should be false', () =>{
       expect(cpfValidator.cpfValidator(13519891034)).to.equal(false);
-    });
+    });  
   });
 });
