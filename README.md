@@ -1,4 +1,6 @@
-# Validador de CPF V.1.0.0
+# cpfvalidator-boo
+
+## Validador de CPF V.1.0.0
 
 **Esta biblioteca se destina à validação de números de CPF.**
 A versão atual é capaz de validar números de CPF (Cadastro de pessoa física). 
@@ -15,7 +17,7 @@ $  npm install cpfvalidator-boo
 
 ```node
 
-> const cpfValidator = require("cpfValidator-boo");
+> const cpfValidator = require("cpfvalidator-boo");
 > cpfValidator.cpfValidator("64695823039");
 > // returns true;
 

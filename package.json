@@ -2,7 +2,7 @@
   "name": "cpfvalidator-boo",
   "version": "1.0.0",
   "description": "A JS library to validate CPF number",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,7 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/almeidaribeiro/cpfValidator-.git"
   },
-  "author": "bruna almeida",
+  "author": "Bruna Almeida",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/almeidaribeiro/cpfValidator-/issues"
