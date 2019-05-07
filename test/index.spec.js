@@ -2,7 +2,7 @@
 
 let chai = require('chai');
 let expect = chai.expect;
-let cpfValidator =require('../lib/index');
+let cpfValidator = require('../lib/index');
 
 describe('cpf lib', () => {
   describe('cpfValidator', () =>{
